@@ -30,7 +30,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 ),
               );
             },
-            child: const Text('Show Snack Bar')),
+            child: const Text('Show dialog')),
       ],
     );
   }

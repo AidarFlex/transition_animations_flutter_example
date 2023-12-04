@@ -11,7 +11,7 @@ class SecondPage extends StatelessWidget {
       itemCount: 10,
       itemBuilder: (BuildContext context, int index) => Padding(
         padding: const EdgeInsets.all(16),
-        child: OpenContainer<bool>(
+        child: OpenContainer(
           transitionType: ContainerTransitionType.fade,
           openBuilder: (context, openContainer) => SecondarySecondPage(text: 'List Menu Item ${index + 1}'),
           closedBuilder: (context, openContainer) {
